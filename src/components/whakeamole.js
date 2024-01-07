@@ -50,7 +50,10 @@ const WhakeaMole = () => {
 
       setTimeout(() => {
         setHoles((prevHoles) => {
-          const updatedHoles = Array.from({ length: 9 }, (_, index) => index + 1);
+          const updatedHoles = Array.from(
+            { length: 9 },
+            (_, index) => index + 1
+          );
           updatedHoles[i] = holeIndex;
           return updatedHoles;
         });
@@ -59,6 +62,7 @@ const WhakeaMole = () => {
     };
 
     run();
+    // eslint-disable-next-line
   }, []); // No dependencies, run once when component mounts
 
   const handleCursorDown = () => {
