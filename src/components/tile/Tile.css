@@ -1,0 +1,36 @@
+.numberp{
+    position: absolute;
+    width: var(--size);
+    height: var(--size);
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background: var(--tile);
+    font-size: 50px;
+    color: white;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: left .4s ease-in-out, top .4s ease-in-out;
+    font-family: 'Pacifico', cursive;
+  }
+  .numberp.correct{
+    background: var(--correct);
+  }
+  
+  .numberp.slot--0{left: 0px; top: 0;}
+  .numberp.slot--1{left: calc(var(--size)); top: 0;}
+  .numberp.slot--2{left: calc(2 * var(--size)); top: 0;}
+  .numberp.slot--3{left: calc(3 * var(--size)); top: 0;}
+  .numberp.slot--4{left: 0; top: calc(var(--size));}
+  .numberp.slot--5{left: calc(var(--size)); top: calc(var(--size));}
+  .numberp.slot--6{left: calc(2 * var(--size) ); top: calc(var(--size));}
+  .numberp.slot--7{left: calc(3 * var(--size)); top: calc(var(--size));}
+  .numberp.slot--8{left: 0; top: calc(2 * var(--size) );}
+  .numberp.slot--9{left: calc(var(--size)); top: calc(2 * var(--size) );}
+  .numberp.slot--10{left: calc(2 * var(--size) ); top: calc(2 * var(--size) );}
+  .numberp.slot--11{left: calc(3 * var(--size)); top: calc(2 * var(--size) );}
+  .numberp.slot--12{left: 0; top: calc(3 * var(--size));}
+  .numberp.slot--13{left: calc(var(--size)); top: calc(3 * var(--size));}
+  .numberp.slot--14{left: calc(2 * var(--size) ); top: calc(3 * var(--size));}
+  .numberp.slot--15{left: calc(3 * var(--size)); top: calc(3 * var(--size));}
+  .numberp.disabled{pointer-events: none; background-color:transparent;}

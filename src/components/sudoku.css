@@ -1,0 +1,88 @@
+.Apps {
+  display: flex;
+  font-family: "Audiowide", sans-serif;
+  text-align: center;
+  justify-content: center;
+  background-color: #282c34;
+}
+
+.App-headers {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+p{
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.cellInputs{
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+  text-align: center;
+  padding: 0px;
+  border: 1px solid black;
+}
+
+table{
+  border-collapse: collapse;
+  border: 3px solid bisque;
+  background-color: bisque;
+}
+
+td{
+  padding: 0;
+}
+
+.buttonContainers{
+  margin-top: 10px;
+}
+
+.solveButtons{
+  background-color: orange;
+  font-weight: bold;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 20px;
+  font-weight: 20px;
+  font-size: 14px;
+  margin: 0px 20px;
+  cursor: pointer;
+}
+
+.checkButtons{
+  background-color: tomato;
+  font-weight: bold;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 20px;
+  font-weight: 20px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.resetButtons{
+  background-color: aqua;
+  font-weight: bold;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 20px;
+  font-weight: 20px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.bBorders{
+  border-bottom: 2px solid black;
+}
+
+.rBorders{
+  border-right: 2px solid black;
+}
