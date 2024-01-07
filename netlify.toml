@@ -1,4 +1,4 @@
 [[redirects]]
   from = "/sudoku"
-  to = "components/sudoku.js"
+  to = "/"
   status = 200
