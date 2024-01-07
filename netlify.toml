@@ -1,0 +1,4 @@
+[[redirects]]
+  from = "/sudoku"
+  to = "/sudoku.js"
+  status = 200
