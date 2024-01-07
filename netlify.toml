@@ -2,3 +2,28 @@
   from = "/sudoku"
   to = "/"
   status = 200
+
+[[redirects]]
+  from = "/flappyBird"
+  to = "/"
+  status = 200
+
+[[redirects]]
+  from = "/wordGuessing"
+  to = "/"
+  status = 200
+
+[[redirects]]
+  from = "/tictactoe"
+  to = "/"
+  status = 200
+
+[[redirects]]
+  from = "/puzzle"
+  to = "/"
+  status = 200
+
+[[redirects]]
+  from = "/whack-a-mole"
+  to = "/"
+  status = 200
