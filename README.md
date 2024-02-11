@@ -1,3 +1,8 @@
+# Live Demo
+- Here is the link of the project [Games2win](https://games2win.netlify.app/)
+- Go through the webiste use it and play with it.
+- Let me know if you had and issues or any new ideas or games let's work on it together.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
