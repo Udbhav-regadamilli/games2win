@@ -127,7 +127,7 @@ class createSudoku {
 }
 
 const sudokuObj = new createSudoku();
-sudokuObj.generateSudoku(0);
+sudokuObj.generateSudoku(50);
 const initale = getDeepCopy(sudokuObj.grid);
 sudokuObj.solver();
 const solution = getDeepCopy(sudokuObj.grid);
